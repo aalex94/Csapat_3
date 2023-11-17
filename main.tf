@@ -9,7 +9,12 @@ resource "local_file" "raw" {
 
 # 2. Use the local_file resource but now with variables
 resource "local_file" "variables" {
-  content  = "This var.filename_local.txt file was created using the local_file resource 
-and the following variables from the variables.tf file!\nvar.vartext\tvar.varnumber"
+# Use multi-line string in the content
+  content  = <<MULTI
+This var.filename_local.txt file was created using the local_file resource 
+and the following variables from the variables.tf file!
+\tvar.vartext
+\tvar.varnumber
+MULTI
   filename = "Created_files/var.filename_local.txt"
 }
