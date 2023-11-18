@@ -18,3 +18,15 @@ and the following variables from the variables.tf file!
 MULTI
   filename = "Created_files/var.filename_local.txt"
 }
+
+
+# 3. Create n number of files with the local_file resource with the help of the count meta-argument
+resource "local_file" "count" {
+# Create 5 similar files
+  count = 5
+  content  = <<MULTI
+This count_${count.index+1}_local.txt file was created using the local_file resource and the count meta-argument!
+See the count number in the filename of this file!
+MULTI
+  filename = "Created_files/count_${count.index+1}_local.txt"
+}
