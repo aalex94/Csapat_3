@@ -24,8 +24,10 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <TextBlock
-                    Text="Username" 
                     Grid.Row="0"
+                    Text="Username"
+                    FontWeight="Bold"
+                    TextDecorations="Underline"
                     HorizontalAlignment="Left"
                     Margin="10"/>
                 <TextBox
@@ -36,8 +38,10 @@
                     Width="255"
                     Padding="5"/>
                 <TextBlock
-                    Text="Password" 
                     Grid.Row="2"
+                    Text="Password"
+                    FontWeight="Bold"
+                    TextDecorations="Underline"
                     HorizontalAlignment="Left"
                     Margin="10"/>
                 <PasswordBox
@@ -48,6 +52,18 @@
                     Width="255"
                     Padding="5"/>
             </Grid>
+            <Button
+                x:Name="LoginBtn" 
+                Content="Login" 
+                Foreground="White"
+                Background="SkyBlue"
+                FontSize="20"
+                FontWeight="Bold"
+                HorizontalAlignment="Center"
+                Margin="25"
+                Height="40"
+                Width="150">
+            </Button>
         </StackPanel>
     </Grid>
 </Window>
