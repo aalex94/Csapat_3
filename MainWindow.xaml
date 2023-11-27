@@ -35,6 +35,18 @@
                     Text="Username"
                     Width="255"
                     Padding="5"/>
+                <TextBlock
+                    Text="Password" 
+                    Grid.Row="2"
+                    HorizontalAlignment="Left"
+                    Margin="10"/>
+                <PasswordBox
+                    Grid.Row="3"
+                    HorizontalAlignment="Left"
+                    Margin="15"
+                    Password="password"                           
+                    Width="255"
+                    Padding="5"/>
             </Grid>
         </StackPanel>
     </Grid>
