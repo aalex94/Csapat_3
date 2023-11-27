@@ -35,6 +35,7 @@
                     HorizontalAlignment="Left"
                     Margin="15"
                     Text="Username"
+                    Name="User"
                     Width="255"
                     Padding="5"/>
                 <TextBlock
@@ -48,7 +49,8 @@
                     Grid.Row="3"
                     HorizontalAlignment="Left"
                     Margin="15"
-                    Password="password"                           
+                    Password="password"
+                    Name="Pass"
                     Width="255"
                     Padding="5"/>
             </Grid>
