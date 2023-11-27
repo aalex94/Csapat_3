@@ -23,6 +23,18 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
+                <TextBlock
+                    Text="Username" 
+                    Grid.Row="0"
+                    HorizontalAlignment="Left"
+                    Margin="10"/>
+                <TextBox
+                    Grid.Row="1"
+                    HorizontalAlignment="Left"
+                    Margin="15"
+                    Text="Username"
+                    Width="255"
+                    Padding="5"/>
             </Grid>
         </StackPanel>
     </Grid>
