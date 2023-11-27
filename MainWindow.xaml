@@ -54,7 +54,8 @@
             </Grid>
             <Button
                 x:Name="LoginBtn" 
-                Content="Login" 
+                Content="Login"
+                Click="LoginBtn_Click"
                 Foreground="White"
                 Background="SkyBlue"
                 FontSize="20"
