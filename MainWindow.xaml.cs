@@ -39,5 +39,12 @@ namespace labor
             private set { password = value; }
         }
         
+
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.User_name = User.Text;
+            this.Password = Pass.Password;
+            MessageBox.Show("Logged in successfully!\nWelcome, " + this.User_name + "!");
+        }
     }
 }
