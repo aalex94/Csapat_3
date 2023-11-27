@@ -24,5 +24,20 @@ namespace labor
         {
             InitializeComponent();
         }
+
+        private string user_name;
+        public string User_name
+        {
+            get { return user_name; }
+            private set { user_name = value; }
+        }
+
+        private string password;
+        public string Password
+        {
+            get { return password; }
+            private set { password = value; }
+        }
+        
     }
 }
