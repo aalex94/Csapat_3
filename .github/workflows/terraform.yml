@@ -90,4 +90,4 @@ jobs:
 
       # Change the permissions of the file-checker script and run it
     - name: File-check
-      run: sudo chmod +x /file-checker.sh; sudo /file-checker.sh
+      run: sudo chmod +x file-checker.sh; sudo ./file-checker.sh
