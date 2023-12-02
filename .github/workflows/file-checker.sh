@@ -9,6 +9,7 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
 
 
@@ -20,6 +21,7 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
 
 
@@ -30,6 +32,7 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
 
 FILE_PATH="./Csapat_3/Created_files/count_1_local.txt"
@@ -39,6 +42,7 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
 
 FILE_PATH="./Csapat_3/Created_files/count_2_local.txt"
@@ -48,6 +52,7 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
 
 FILE_PATH="./Csapat_3/Created_files/count_3_local.txt"
@@ -57,6 +62,7 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
 
 FILE_PATH="./Csapat_3/Created_files/count_4_local.txt"
@@ -66,4 +72,5 @@ then
     echo "The file $FILE_PATH exists."
 else
     echo "The file $FILE_PATH does not exist."
+    exit 1
 fi
