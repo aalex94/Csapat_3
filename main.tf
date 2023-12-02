@@ -16,7 +16,7 @@ and the following variables from the variables.tf file!
 \tvar.vartext
 \tvar.varnumber
 MULTI
-  filename = "Csapat_3/Created_files/var.filename_local.txt"
+  filename = "Csapat_3/Created_files/${var.filename}_local.txt"
 }
 
 
