@@ -1,6 +1,10 @@
-# Csapat_3
+# Project: Automated Task Migration Framework
 
-## Overview and plans
+## Summary
+
+The project aims to address the customer's need for automating semi-scripted tasks by developing a mature automated solution. The customer desires a framework that minimizes human errors, is easy to teach, supports collaboration, and can be quickly implemented. Key requirements include detailed documentation, code testing capabilities, an approval workflow, example Terraform codes, and integration of code management, issue tracking, and automated processes.
+
+## Project Breakdown
 
 |                   Tasks                  |                                                  Details                                                  |               Responsible              |                                                                              Participants                                                                             | Start date |  End date  |                                                            Goal                                                            |
 |:----------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:--------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:----------:|:--------------------------------------------------------------------------------------------------------------------------:|
