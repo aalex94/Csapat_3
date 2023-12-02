@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Define the path to the file.
+# Define the path to the first file.
 FILE_PATH="/Csapat_3/Created_files/raw_local.txt"
 
 # Use an if-else statement to check if the file exists.
@@ -11,3 +11,23 @@ else
     echo "The file $FILE_PATH does not exist."
 fi
 
+
+# Check each of the files individually.
+FILE_PATH="/Csapat_3/Created_files/variables_local.txt"
+
+if test -f "$FILE_PATH"
+then
+    echo "The file $FILE_PATH exists."
+else
+    echo "The file $FILE_PATH does not exist."
+fi
+
+
+FILE_PATH="/Csapat_3/Created_files/count_0_local.txt"
+
+if test -f "$FILE_PATH"
+then
+    echo "The file $FILE_PATH exists."
+else
+    echo "The file $FILE_PATH does not exist."
+fi
