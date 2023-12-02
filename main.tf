@@ -28,5 +28,5 @@ resource "local_file" "count" {
 This count_${count.index+1}_local.txt file was created using the local_file resource and the count meta-argument!
 See the count number in the filename of this file!
 MULTI
-  filename = "/Csapat_3/Created_files/count_${count.index+1}_local.txt"
+  filename = "/Csapat_3/Created_files/count_${count.index}_local.txt"
 }
