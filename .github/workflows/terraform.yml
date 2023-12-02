@@ -90,4 +90,5 @@ jobs:
 
       # Change the permissions of the file-checker script and run it
     - name: File-check
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       run: sudo chmod +x .github/workflows/file-checker.sh; sudo .github/workflows/file-checker.sh
