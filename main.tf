@@ -3,7 +3,7 @@
 # 1. Simply use the local_file resource
 resource "local_file" "raw" {
   content  = "This raw_local.txt file was just simply created using the local_file resource!"
-  filename = "Csapat_3/Created_files/raw_local.txt"
+  filename = "./Csapat_3/Created_files/raw_local.txt"
 }
 
 
@@ -16,7 +16,7 @@ and the following variables from the variables.tf file!
 \tvar.vartext
 \tvar.varnumber
 MULTI
-  filename = "Csapat_3/Created_files/${var.file_name}_local.txt"
+  filename = "./Csapat_3/Created_files/${var.file_name}_local.txt"
 }
 
 
@@ -28,5 +28,5 @@ resource "local_file" "count" {
 This count_${count.index+1}_local.txt file was created using the local_file resource and the count meta-argument!
 See the count number in the filename of this file!
 MULTI
-  filename = "Csapat_3/Created_files/count_${count.index}_local.txt"
+  filename = "./Csapat_3/Created_files/count_${count.index}_local.txt"
 }
