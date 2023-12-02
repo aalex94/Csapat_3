@@ -31,3 +31,39 @@ then
 else
     echo "The file $FILE_PATH does not exist."
 fi
+
+FILE_PATH="/Csapat_3/Created_files/count_1_local.txt"
+
+if test -f "$FILE_PATH"
+then
+    echo "The file $FILE_PATH exists."
+else
+    echo "The file $FILE_PATH does not exist."
+fi
+
+FILE_PATH="/Csapat_3/Created_files/count_2_local.txt"
+
+if test -f "$FILE_PATH"
+then
+    echo "The file $FILE_PATH exists."
+else
+    echo "The file $FILE_PATH does not exist."
+fi
+
+FILE_PATH="/Csapat_3/Created_files/count_3_local.txt"
+
+if test -f "$FILE_PATH"
+then
+    echo "The file $FILE_PATH exists."
+else
+    echo "The file $FILE_PATH does not exist."
+fi
+
+FILE_PATH="/Csapat_3/Created_files/count_4_local.txt"
+
+if test -f "$FILE_PATH"
+then
+    echo "The file $FILE_PATH exists."
+else
+    echo "The file $FILE_PATH does not exist."
+fi
